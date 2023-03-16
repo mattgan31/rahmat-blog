@@ -18,7 +18,7 @@ subtitle = "Tempat untuk membuat catatan"
 [sidebar.avatar]
 enabled = true
 local = true
-src = "img/avatar.jpg"
+src = "img/avatar.png"
 
 [article]
 math = false
