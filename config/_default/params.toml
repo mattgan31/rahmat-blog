@@ -75,7 +75,7 @@ enabled = true
 ## Comments
 [comments]
 enabled = true
-provider = "disqus"
+provider = "gitalk"
 
 [comments.disqusjs]
 shortname = ""
@@ -137,12 +137,13 @@ reactionsEnabled = 1
 emitMetadata = 0
 
 [comments.gitalk]
-owner = ""
+owner = "mattgan31"
 admin = ""
-repo = ""
-clientID = ""
-clientSecret = ""
+repo = "rahmat-blog"
+clientID = "1d88d07e2fcdf42256ff"
+clientSecret = "d1d5b7c8fbd1e5ad4915941abca91345b4264572"
 
 [comments.cusdis]
-host = ""
-id = ""
+host = "https://cusdis.com"
+id = "16760e42-1daa-445d-ab98-6b0092344556"
+
