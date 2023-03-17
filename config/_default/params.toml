@@ -137,8 +137,9 @@ reactionsEnabled = 1
 emitMetadata = 0
 
 [comments.gitalk]
+enable = "true"
 owner = "mattgan31"
-admin = ""
+admin = "mattgan31"
 repo = "rahmat-blog"
 clientID = "1d88d07e2fcdf42256ff"
 clientSecret = "d1d5b7c8fbd1e5ad4915941abca91345b4264572"
