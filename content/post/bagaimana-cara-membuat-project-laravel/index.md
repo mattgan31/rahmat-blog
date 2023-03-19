@@ -13,6 +13,10 @@ tags:
 
 # Hello, selamat datang
 
+Halo, selamat datang dicatatan saya. Disini aku mencatat hal-hal yang cukup penting dalam hidup saya, selamat membaca
+
+## Install laravel terlebih dahulu
+
 Kali ini saya akan menulis bagaimana cara membuat project laravel.
 Yang pertama pastikan kamu sudah menginstall php dan composer pada sistem kamu ya!
 untuk mendapatkan composer bisa melalui link berikut
@@ -30,6 +34,8 @@ project akan tersimpan sesuai dengan direktori terminal kamu saat menjalankan pe
 composer global require laravel/installer
 ```
 
+## Buat project laravelmu
+
 Jika installer laravel sudah berhasil diinstall, kamu dapat melakukan perintah berikut untuk membuat project baru laravel
 
 ```sh
@@ -38,4 +44,6 @@ laravel new aplikasimu
 
 Selamat, kamu berhasil untuk membuat project baru laravel! Ikuti terus blog ini ya
 
-Sekian catatan hari ini, semoga bermanfaat bagi kita semua
+## Apa yang perlu dilakukan selanjutnya ?
+
+Selanjutnya kamu dapat membuat file migrasi untuk persiapan database dan masih banyak lainnya, untuk itu sebaiknya kamu mengikuti blog ini untuk mengetahui apalagi tentang catatanku ini
