@@ -6,7 +6,7 @@ image: cover.png
 math:
 hidden: false
 comments: true
-draft: true
+draft: false
 categories:
   - Programming
 tags:
