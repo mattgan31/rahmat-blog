@@ -4,6 +4,7 @@ description: Sebuah tutorial
 date: 2023-03-16T23:31:36+07:00
 slug: bagaimana-cara-membuat-project-laravel
 comments: true
+image: cover.png
 categories:
   - Programming
 tags:
