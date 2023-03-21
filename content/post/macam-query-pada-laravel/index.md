@@ -54,3 +54,30 @@ Mari kita bedah syntax tersebut,
 
 1. Seperti contoh sebelumnya, kita perlu memanggil file modelnya terlebih dahulu.
 2. Kemudian pada `find(1)`, yaitu fungsi untuk mencari berdasarkan id yang dimana contohnya `id` tersebut ialah `1`
+
+### Mendapatkan data berdasarkan kondisi kolom tertentu
+
+Pada kasus tertentu kita diperlukan untuk mendapat data berdasarkan value pada kolom tertentu misalkan pada produk, kita ingin menampilkan produk yang memiliki harga tertentu. Berikut adalah contohnya
+
+```php
+Product::where('price', '>', 100000);
+
+# SELECT * FROM products WHERE price > 100000;
+```
+
+1. Seperti biasa kita perlu memanggil modelnya terlebih dahulu,
+2. Dilanjut dengan `where` dengan parameter yang diinginkan, misalkan pada contoh kita ingin mencari produk yang memiliki harga diatas 100000 maka kita menuliskan `('price', '>', 100000)`
+
+### Custom query builder
+
+Pada beberapa kasus, kita hanya memerlukan untuk menampilkan data hanya dari sebagian kolom yang diinginkan saja. Untuk contohnya bisa dilihat pada syntax berikut
+
+```php
+DB::table('products')
+    ->select('product_name', 'price')
+    ->get();
+```
+
+Syntax diatas kita memanggil tabel `products` dan memanggil kolom `product_name` dan `price` saja.
+
+Itu saja yang bisa dicatat pada kesempatan kali ini, semoga catatan ini berguna bagi kita semua. Terimakasih
