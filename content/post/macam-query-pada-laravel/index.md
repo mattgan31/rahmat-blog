@@ -2,12 +2,12 @@
 title: "Macam Query Pada Laravel"
 description: Macam-macam bentuk Query pada Laravel
 date: 2023-03-21T11:45:12+07:00
-image:
+image: cover.png
 math:
 license:
 hidden: false
 comments: true
-draft: true
+draft: false
 categories:
   - Programming
 tags:
