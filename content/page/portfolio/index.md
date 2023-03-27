@@ -17,7 +17,7 @@ menu:
 ---
 
 ## Sterophone - Catalog Website
-![Sterophone Catalog (Building)](img/Sterophone-1.png)
+![Sterophone Catalog (On progress)](img/Sterophone-1.png)
 
 ![Sterophone Admin Page](img/Sterophone-2.png)
 
