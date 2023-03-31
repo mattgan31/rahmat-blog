@@ -17,7 +17,7 @@ menu:
 ---
 
 ## Sterophone - Catalog Website
-![Sterophone Catalog (Building)](img/Sterophone-1.png)
+![Sterophone Catalog (On progress)](img/Sterophone-1.png)
 
 ![Sterophone Admin Page](img/Sterophone-2.png)
 
@@ -30,3 +30,5 @@ Website ini saya bangun untuk mempelajari Laravel dan membuat website dengan mem
 ![Catalog API Show Products](img/Catalog-API-3.png)
 
 Project ini dibangun menggunakan Go dengan framework Gin, API ini menjadi bahan pembelajaran ulang dari pelatihan Scalable web service with Golang. Pada API ini kamu dapat menambahkan produk, dengan memerlukan autentikasi melalui login terlebih dahulu, lalu kamu dapat menampilkan salah satu produk ataupun keseluruhan, serta dapat mengedit dan menghapus data produk yang ada.
+
+[Menuju Repository](https://github.com/mattgan31/catalog-api)
