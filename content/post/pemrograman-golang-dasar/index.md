@@ -1,6 +1,6 @@
 ---
 title: "Pemrograman Golang Dasar"
-description:
+description: "Belajar dasar mengenai pemrograman Golang"
 date: 2023-04-03T08:56:58+07:00
 image: "cover.png"
 math:
