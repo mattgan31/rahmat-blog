@@ -2,12 +2,12 @@
 title: "Pemrograman Golang Dasar"
 description:
 date: 2023-04-03T08:56:58+07:00
-image:
+image: "cover.png"
 math:
 license:
 hidden: false
 comments: true
-draft: true
+draft: false
 categories:
   - Programming
 tag:
@@ -30,9 +30,11 @@ Sejak dirilis, Golang telah menjadi bahasa pemrograman populer di kalangan penge
 Setiap pemrograman memiliki kemiripan dan perbedaannya masing-masing, dan perbedaan dan kemiripan itulah yang membuat suatu bahasa pemrograman itu menarik
 
 ### Package & Import
+
 Golang menggunakan konsep `package` untuk mengorganisir kode, setiap file harus berada didalam sebuah `package`. Package dapat diimpor oleh file lain dengan menggunakan keyword `import`.
 
 Contoh:
+
 ```go
 package main
 
@@ -46,6 +48,7 @@ import(
 Fungsi merupakan blok kode yang dapat dipanggil dan dijalankan secara independen. Fungsi pada golang diidentifikasikan dengan menggunakan keyword `func`.
 
 Contoh:
+
 ```go
 func helloWorld(){
     fmt.Println("Hello World!")
@@ -57,6 +60,7 @@ func helloWorld(){
 Golang memiliki keunikan, kamu dapat mengidentifikasikan tipe datanya ataupun tidak yang nantinya variabel tersebut memiliki tipe data sesuai dengan value didalamnya, kamu perlu menggunakan titik dua ":" persis sebelum tanda sama dengan "=".
 
 Contoh:
+
 ```go
 var name string = "John Doe"
 
@@ -68,13 +72,16 @@ num := 20
 Sama seperti bahasa pemrograman lainnya, golang juga memiliki syntax pengkondisian seperti if-else ataupun switch-case
 
 Contoh:
+
 ```go
+// if-else
 if age >= 18 {
     fmt.Println("You are an adult")
 } else {
     fmt.Println("You are not an adult")
 }
 
+// switch-case
 switch day {
     case "Monday":
         fmt.Println("Today is Monday")
@@ -84,3 +91,7 @@ switch day {
         fmt.Println("Today is another day")
 }
 ```
+
+## Penutup
+
+Terimakasih sudah mampir ke blog saya ini, mohon maaf apabila terdapat kekurangan dalam penulisan. Disini saya selain sedang belajar koding, saya mencoba belajar menulis juga. Mohon dimaklumi ya :)
